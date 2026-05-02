@@ -2,14 +2,14 @@
 
 A complete AI-powered developer assistant with both backend and frontend components, featuring real-time streaming responses, conversation memory, and a professional dark UI.
 
-## 🚀 Project Overview
+## Project Overview
 
 DevMate AI is a full-stack application that provides intelligent assistance for developers through three specialized modes:
 - **General Chat**: Ask any development-related questions
 - **Code Explanation**: Get detailed explanations of code snippets
 - **Error Fixing**: Receive debugging assistance for errors
 
-### ✨ Key Features
+### Key Features
 
 - **Real-time Streaming**: Watch AI responses appear token by token
 - **Conversation Memory**: Maintains context across messages using session IDs
@@ -20,7 +20,7 @@ DevMate AI is a full-stack application that provides intelligent assistance for 
 - **Dark Theme**: Professional dark navy theme with Tailwind CSS
 - **Session Management**: Persistent conversations via localStorage
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI** - Modern Python web framework
@@ -37,7 +37,7 @@ DevMate AI is a full-stack application that provides intelligent assistance for 
 - **Axios** for API communication
 - **UUID** for session management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DevMate-AI/
@@ -77,7 +77,7 @@ DevMate-AI/
 └── README.md                 # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -120,21 +120,21 @@ Frontend runs at: `http://localhost:5173`
 
 Open your browser and navigate to `http://localhost:5173` to start using DevMate AI!
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Mode Selection
 
-1. **General Chat** 💬
+1. **General Chat**
    - Ask any development-related questions
    - Get help with programming concepts
    - Receive coding advice and best practices
 
-2. **Explain Code** 📝
+2. **Explain Code**
    - Paste code snippets for detailed explanations
    - Understand complex algorithms
    - Learn about programming patterns
 
-3. **Fix Error** 🐛
+3. **Fix Error**
    - Paste error messages for debugging assistance
    - Get solutions to common programming errors
    - Receive step-by-step troubleshooting guidance
@@ -164,7 +164,7 @@ Open your browser and navigate to `http://localhost:5173` to start using DevMate
 - **Mobile**: Collapsible sidebar with hamburger menu
 - **Tablet**: Adaptive layout based on screen size
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Backend Endpoints
 
@@ -231,7 +231,7 @@ while (true) {
 }
 ```
 
-## 🛡️ Error Handling
+## Error Handling
 
 ### Backend Error Handling
 
@@ -252,7 +252,7 @@ The frontend gracefully handles:
 
 Error messages are displayed directly in the chat interface with clear indicators.
 
-## ⚡ Performance Optimizations
+## Performance Optimizations
 
 ### Backend Optimizations
 - **Rate Limiting**: Prevents abuse with SlowAPI middleware
@@ -267,7 +267,7 @@ Error messages are displayed directly in the chat interface with clear indicator
 - **Optimized Streaming**: Efficient text decoding and rendering
 - **Auto-resizing Textarea**: Dynamic height adjustment for input
 
-## 🛠️ Development Guide
+## Development Guide
 
 ### Adding New Modes
 
@@ -301,7 +301,7 @@ For production deployment:
 2. **Frontend**: Update the `BASE_URL` in `src/services/api.js` to point to your live backend URL
 3. **CORS**: Configure appropriate CORS origins in backend
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 
@@ -338,14 +338,14 @@ COPY . .
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 🌐 Browser Support
+## Browser Support
 
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
 - Edge 90+
 
-## 📝 Logging and Monitoring
+## Logging and Monitoring
 
 ### Backend Logging
 All requests are logged with:
@@ -361,7 +361,7 @@ Consider integrating:
 - **LogRocket** for session recording
 - **Google Analytics** for usage metrics
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -372,11 +372,11 @@ Consider integrating:
 7. Push to the branch (`git push origin feature/amazing-feature`)
 8. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI** for providing the GPT-4o-mini model
 - **FastAPI** for the modern Python web framework
@@ -384,7 +384,7 @@ This project is open source and available under the MIT License.
 - **Tailwind CSS** for the utility-first CSS framework
 - **Vite** for the fast development build tool
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
